@@ -1,0 +1,18 @@
+body {
+	background-color: white;
+	margin: 3em auto;
+}
+.main {
+	background: linear-gradient(to bottom right, blue, white);
+	border-radius: 8px;
+	height: auto;
+	color: #000;
+	padding: 3em;
+}
+h1 {
+	text-align: center;
+}
+.right{
+	float: right;
+}
+
