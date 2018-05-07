@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Book Catalogue Page</title>
+        <link rel="stylesheet" href="catalogue_page.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
+    </head>
+
+    <body onload="onInit();">
+        <div class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="#">Book-App</a>         
+                <button class="btn btn-outline-success float-right my-2 my-sm-0">Logout</button>   
+        </div>
+
+        <div class="top-div jumbotron text-center">
+            <h3>Pages</h3>
+            <div id="linksDiv"></div>
+            <a href="?min=0&max=500"> 0-500 </a> 
+            <a href="?min=501&max=1000"> 501-1000 </a> 
+            <a href="?min=1001&max=1500"> 1001-1500 </a> 
+            <a href="?min=1501&max=2000"> 1501-2000 </a>
+            <a href="?min=2001&max=2500"> 1501-2000 </a>
+            <a href="?min=2501&max=3000"> 1501-2000 </a>
+            <a href="?min=3001&max=3500"> 1501-2000 </a>
+            <a href="?min=3501&max=4000"> 1501-2000 </a>
+            <a href="?min=4001&max=5000"> 1501-2000 </a>
+            <a href="?min=1501&max=2000"> 1501-2000 </a>
+            <a href="?min=1501&max=2000"> 1501-2000 </a>
+            <a href="?min=1501&max=2000"> 1501-2000 </a>
+            <a href="?min=1501&max=2000"> 1501-2000 </a>  
+        </div>
+
+        
+
+        <div class="container lower-div">
+            <div class="row">
+                <div class="col-md-3">
+                        <div class="card">
+                        <div class="card-body">
+                          <span>Book Title:  <a class="card-title" href=""> Name</a></span>
+                          <p> Excerpts: Some quick example text</p>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-md-3">
+                        <div class="card">
+                        <div class="card-body">
+                          <span>Book Title:  <a class="card-title" href=""> Name</a></span>
+                          <p> Excerpts: Some quick example text</p>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </div> 
+
+    </body>
+</html>

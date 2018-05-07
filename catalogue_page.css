@@ -1,0 +1,13 @@
+.lower-div {
+    background: linear-gradient(to bottom right, blue, white);
+    padding: 10px;
+}
+
+#linksDiv > a {
+    margin: 0 10px;
+}
+
+.card-title {
+    color: blue;
+    font-weight: bold;
+}
