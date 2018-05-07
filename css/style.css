@@ -1,0 +1,110 @@
+body {
+  background: linear-gradient(to bottom right, blue, white)
+}
+
+.form-style-8{
+  font-family: 'Open Sans Condensed', arial, sans;
+  width: 400px;
+  padding: 30px;
+  background: #fff;
+  margin: 0px auto;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.22);
+  -moz-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.22);
+  -webkit-box-shadow:  0px 0px 15px rgba(0, 0, 0, 0.22);
+
+}
+.form-style-8 input[type="text"],
+.form-style-8 input[type="search"],
+.form-style-8 input[type="time"],
+.form-style-8 input[type="url"],
+.form-style-8 input[type="password"],
+.form-style-8 textarea,
+.form-style-8 select
+{
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  outline: none;
+  display: block;
+  width: 100%;
+  padding: 7px;
+  border: none;
+  border-bottom: 1px solid #ddd;
+  background: transparent;
+  margin-bottom: 10px;
+  font: 16px Arial, Helvetica, sans-serif;
+  height: 45px;
+}
+.form-style-8 textarea{
+  resize:none;
+  overflow: hidden;
+}
+.form-style-8 input[type="button"],
+.form-style-8 input[type="submit"]{
+  -moz-box-shadow: inset 0px 1px 0px 0px #45D6D6;
+  -webkit-box-shadow: inset 0px 1px 0px 0px #45D6D6;
+  box-shadow: inset 0px 1px 0px 0px #45D6D6;
+  background-color: #00c3ffe8;
+  border: 1px solid #cccccc;
+  display: inline-block;
+  cursor: pointer;
+  color: #FFFFFF;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 14px;
+  padding: 15px 18px;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin-left: 30%;
+  margin-top: 15px;
+}
+.form-style-8 input[type="file"]{
+  font: 16px Arial, Helvetica, sans-serif;
+  height: 45px;
+  border: none;
+}
+.form-style-8 input[type="button"]:hover,
+.form-style-8 input[type="submit"]:hover {
+  background:linear-gradient(to bottom, #34CACA 5%, #30C9C9 100%);
+  background-color:#34CACA;
+}
+.body-align{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10%;
+}
+.btn-align{
+  margin-left: 30%;
+}
+.head {
+  color: white;
+}
+.para {
+  color: white;
+}
+#error {
+  color: red;
+}
+
+/* Mobile Screen */
+@media only screen and (max-width: 768px){
+  .form-style-8{
+      width: 300px;
+      padding: 10px;
+  }
+  .form-style-8 input[type="submit"]{
+      font-size: 0.7em;
+      padding: 10px px;
+  }
+}
+@media only screen and (min-width: 320px) and (max-width: 560px) {
+  .form-style-8{
+      width: 170px;
+      padding: 5px;
+  }
+  .body-align{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
