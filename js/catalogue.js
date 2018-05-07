@@ -6,8 +6,8 @@ const pageUrl = window.location.href;
 localStorage.setItem('username','Stephen');
 const user = localStorage.getItem('username');
 const url = new URL(pageUrl);
-const min = url.searchParams.get('min') | 0;
-const max = url.searchParams.get('max') | 500;
+let min = url.searchParams.get('min') | 0;
+let max = url.searchParams.get('max') | 500;
 min = parseInt(min);
 max = parseInt(max);
 
